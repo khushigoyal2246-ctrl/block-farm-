@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Truffle / build artifacts
+build/
+build/contracts/
+*.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Environment
+.env
+.env.*
+
+# OneDrive temp
+~$*
+
+# Ignore the inner Blockfarm repo so it isn't re-added
+Blockfarm/
+Blockfarm/.git
