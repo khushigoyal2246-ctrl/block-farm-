@@ -25,6 +25,4 @@ Thumbs.db
 # OneDrive temp
 ~$*
 
-# Ignore the inner Blockfarm repo so it isn't re-added
-Blockfarm/
-Blockfarm/.git
+# (Previously ignored `Blockfarm/` — now tracked to show project files on GitHub)
